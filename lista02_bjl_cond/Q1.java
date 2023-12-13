@@ -7,7 +7,7 @@ public class Q1 {
         return a == b ? "Os números são iguais": a > b ? "O maior é: " + a : "O maior é: " + b;
     }
 
-    public static void main(String[] args) {3
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Insira o primeiro número:");
         int a = input.nextInt();
